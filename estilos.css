@@ -1,0 +1,80 @@
+body{
+    background-color: #000000;
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Social Bar */
+.social-bar {
+    position: fixed;
+    left: 0;
+    top:35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon{
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+    padding: 0.7rem;
+    display: flex;
+    transition: all 0.5s;
+}
+
+.icon:hover {
+    color: #000000;
+    background: rgb(240, 240, 240);
+}
+
+/* Header */
+.logo{
+    color:rgb(165, 165, 165);
+    font-size: 50px;
+    line-height: 100px;
+    float:left;
+    text-decoration: none;
+}
+
+.centrador { 
+    width: 90%; 
+    max-width: 1500px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+nav{
+    float:right;
+    line-height: 100px;  
+}
+
+.a-nav{
+    display: inline-block;
+    color:rgb(165, 165, 165);
+    text-decoration: none;
+    padding:10px 20px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight:bolder;
+    border-radius: 50px;
+    -webkit -o-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition:all 500ms ease;
+}
+
+.a-nav:hover{
+    color: rgb(240, 240, 240);
+}
+
+.logo:hover{
+    color: rgb(240, 240, 240);
+}
+
+h1{
+    color:rgb(165, 165, 165);
+    font-size: 140px;
+    margin-right: 150px;
+    float:right;  
+}
