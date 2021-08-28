@@ -7,6 +7,7 @@ body{
     background: #ffffff;
     height: 100vh;
     width: 50%;
+    float: left;
 }
 
 .derecha{
@@ -15,6 +16,7 @@ body{
     background-position:center;
     width: 50%;
     height: 100vh;
+    float: left;
 }
 
 .secc1{
@@ -22,7 +24,7 @@ body{
 }
 
 h1{
-    padding-top: 8%;
+    padding-top: 15%;
     color: rgb(0, 0, 0);
     font-size: 40px;
     width: 70%;   
@@ -53,4 +55,25 @@ p{
     margin: auto;
     font-family: "Open Sans", Arial, sans-serif;
     color: #b3b3b3;
+}
+
+@media (max-width:800px) {
+    .izquierda{
+        background: #ffffff;
+        height: 100vh;
+        width: 100%;
+        float:left;
+        margin-top: 300px;
+    }
+    
+    .derecha{
+        background-size: cover;
+        background-image: url(images/mujerpiano2.jpg);
+        background-position:center;
+        width: 100%;
+        height: 50vh;
+        float:left;
+        margin-left: -100%;
+    }
+
 }
