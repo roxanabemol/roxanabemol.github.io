@@ -80,6 +80,17 @@ a:hover{
     text-shadow:  1px 1px 1px #8b2e2e;
 }
 
+footer {
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    background-color: #ccc5c5;
+    color: rgb(139, 136, 136);
+    font-family: "Open Sans", Arial, sans-serif; 
+}
+
 @media (max-width:800px) {
     .izquierda{
         background: #ffffff;
